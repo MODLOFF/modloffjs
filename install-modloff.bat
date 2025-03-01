@@ -35,7 +35,7 @@ mkdir "%TEMP_DIR%"
 cd /d "%TEMP_DIR%"
 
 echo [+] MODLOFF indiriliyor...
-git clone https://github.com/yourusername/modloff.git .
+git clone https://github.com/MODLOFF/modloffjs.git .
 
 if %ERRORLEVEL% NEQ 0 (
     echo [!] MODLOFF indirilemedi!
