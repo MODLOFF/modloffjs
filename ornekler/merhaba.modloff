@@ -1,0 +1,21 @@
+// Bu bir ModLoff örnek dosyasıdır
+
+DEGISKEN mesaj = "Merhaba, ModLoff!";
+YAZDIR(mesaj);
+
+FONKSIYON selamla(isim) {
+    YAZDIR("Merhaba, " + isim + "!");
+}
+
+selamla("Dünya");
+
+EGER (mesaj.length > 10) {
+    YAZDIR("Uzun bir mesaj!");
+} DEGILSE {
+    YAZDIR("Kısa bir mesaj!");
+}
+
+DEGISKEN sayilar = [1, 2, 3, 4, 5];
+DONGU (DEGISKEN i = 0; i < sayilar.length; i++) {
+    YAZDIR("Sayı: " + sayilar[i]);
+} 

@@ -1,0 +1,44 @@
+{
+  "name": "modloff",
+  "version": "1.0.1",
+  "description": "MODLOFF - Türkçe Programlama Dili",
+  "main": "src/index.js",
+  "bin": {
+    "modloff": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "modloff",
+    "turkish-programming",
+    "programming-language",
+    "interpreter",
+    "nodejs",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ejs": "^3.1.9",
+    "express": "^4.21.2"
+  },
+  "modloff": {
+    "fileAssociations": {
+      ".modloff": {
+        "icon": "🚀",
+        "description": "Modloff Kaynak Dosyası"
+      }
+    },
+    "language": {
+      "name": "Modloff",
+      "version": "1.0.0",
+      "fileExtension": ".modloff",
+      "creator": "Modloff Team"
+    }
+  }
+}
